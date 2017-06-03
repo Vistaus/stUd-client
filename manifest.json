@@ -1,0 +1,15 @@
+{
+    "architecture": "all",
+    "description": "description of stUd",
+    "framework": "ubuntu-sdk-15.04.6",
+    "hooks": {
+        "stUd": {
+            "apparmor": "stUd/stUd.apparmor",
+            "desktop": "stUd/stUd.desktop"
+        }
+    },
+    "maintainer": "Mathijs Veen <mathijsv33n@gmail.com>",
+    "name": "stud.matv1",
+    "title": "stUd",
+    "version": "0.3.1"
+}

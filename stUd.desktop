@@ -1,0 +1,8 @@
+[Desktop Entry]
+Name=stUd
+Exec=qmlscene %U stUd/Main.qml
+Icon=stUd/stUd.png
+Terminal=false
+Type=Application
+X-Ubuntu-Touch=true
+X-Ubuntu-Supported-Orientations=portrait
