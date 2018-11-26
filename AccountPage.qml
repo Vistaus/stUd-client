@@ -86,7 +86,7 @@ Page {
                     var response = JSON.parse(request2.responseText)
 
                     //doe hier een insert van de user id in localstorage:
-                    insertStudRemoteKey(response[0].id)
+                    insertStudRemoteKey(response.id)
                 } else {
 
 
@@ -95,7 +95,7 @@ Page {
             }
         }
 
-        request2.open("POST", "http://studlist.eu/credsload.php", true)
+        request2.open("POST", "https://studlist.eu/credsload.php", true)
         request2.setRequestHeader("Content-type",
                                   "application/x-www-form-urlencoded")
 
@@ -129,7 +129,7 @@ Page {
                 wrapMode: Text.Wrap
 
                 text: i18n.tr("Log in to your account or create one at ")
-                      + " <a href=\"http://studlist.eu\">http://studlist.eu</a><br>" + i18n.tr(
+                      + " <a href=\"https://studlist.eu\">https://studlist.eu</a><br>" + i18n.tr(
                           "(Or ignore and keep stUdlist on your device only):")
                 onLinkActivated: Qt.openUrlExternally(link)
             }
