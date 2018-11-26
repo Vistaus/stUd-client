@@ -64,18 +64,18 @@ MainView {
                 if (request2.readyState == 4) {
 
                     var response = JSON.parse(request2.responseText)
+                    //console.log("antwoord: " + response.id)
 
                     //doe hier een insert van de user id in localstorage:
-                    insertStudRemoteKey(response[0].id)
+                    insertStudRemoteKey(response.id)
                 } else {
 
-                    console.log("Status: " + request2.status + ", Status Text: "
-                                + request2.statusText)
+                    //console.log("Status: " + request2.status + ", Status Text: " + request2.statusText)
                 }
             }
         }
 
-        request2.open("POST", "http://studlist.eu/credsload.php", true)
+        request2.open("POST", "https://studlist.eu/credsload.php", true)
         request2.setRequestHeader("Content-type",
                                   "application/x-www-form-urlencoded")
 
@@ -141,13 +141,12 @@ MainView {
                     }
                 } else {
                     // waarom praat studlist.eu niet met mij?
-                    console.log("Status: " + request.status + ", Status Text: "
-                                + request.statusText)
+                    //console.log("Status: " + request.status + ", Status Text: " + request.statusText)
                 }
             }
         }
 
-        request.open("POST", "http://studlist.eu/studload.php", true)
+        request.open("POST", "https://studlist.eu/studload.php", true)
         request.setRequestHeader("Content-type",
                                  "application/x-www-form-urlencoded")
 
@@ -159,7 +158,7 @@ MainView {
         if (var0 != 0) {
 
             var hr = new XMLHttpRequest()
-            var url = "http://studlist.eu/studinsert.php"
+            var url = "https://studlist.eu/studinsert.php"
 
             var var1 = content
             var vars = "item=" + var1 + "&ukey=" + var0
@@ -186,7 +185,7 @@ MainView {
         if (var0 != 0) {
 
             var hr = new XMLHttpRequest()
-            var url = "http://studlist.eu/studdelete.php"
+            var url = "https://studlist.eu/studdelete.php"
 
             //var var1 = content
             var vars = "item=deleteit" + "&ukey=" + var0
@@ -213,7 +212,7 @@ MainView {
         if (var3 != 0) {
 
             var hr = new XMLHttpRequest()
-            var url = "http://studlist.eu/studupdategot.php"
+            var url = "https://studlist.eu/studupdategot.php"
             var var1 = thing
             var var2 = got
             var var3 = getUserKey()
@@ -410,7 +409,7 @@ MainView {
                             onTriggered: {
                                 stUdModel.clear()
                                 sendCreds()
-                                //console.log("getUserKey is: " + getUserKey())
+                                
                                 content.resizeContent(topItem.width,
                                                       getContentOfFlick(),
                                                       Qt.point(100, 100))
