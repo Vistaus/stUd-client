@@ -128,9 +128,9 @@ Page {
                 id: lab1
                 wrapMode: Text.Wrap
 
-                text: i18n.tr("Log in to your account or create one at ")
+                text: i18n.tr("Log on with the stUd account you created at ")
                       + " <a href=\"https://studlist.eu\">https://studlist.eu</a><br>" + i18n.tr(
-                          "(Or ignore and keep stUdlist on your device only):")
+                          "Or enter some credentials of your choice to create and use a locally stored account only (password may be blank for local accounts):")
                 onLinkActivated: Qt.openUrlExternally(link)
             }
 
