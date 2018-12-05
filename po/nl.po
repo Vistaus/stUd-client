@@ -1,0 +1,77 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the stud.matv1 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+# matv1 <mathijsv33n@gmail.com>, 2018.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: stud.matv1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-01 16:32+0000\n"
+"PO-Revision-Date: 2018-12-01 17:56+0100\n"
+"Last-Translator: matv1 <mathijsv33n@gmail.com>\n"
+"Language-Team: Dutch; Flemish <>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Gtranslator 2.91.7\n"
+
+#: ../qml/AccountPage.qml:10
+msgid "StUd Account"
+msgstr "StUd Account"
+
+#: ../qml/AccountPage.qml:131
+msgid "Log on with the stUd account you created at "
+msgstr "Meld je aan met het account dat je aangemaakt op"
+
+#: ../qml/AccountPage.qml:133
+msgid ""
+"Or enter some credentials of your choice to create and use a locally stored "
+"account only (password may be blank for local accounts):"
+msgstr ""
+"Of voer gegevens naar keuze in om een lokaal opgeslagen account te maken en "
+"gebruiken (wachtwoord mag leeg zijn bij lokale accounts):"
+
+#: ../qml/AccountPage.qml:144
+msgid "Username"
+msgstr "Gebruikersnaam"
+
+#: ../qml/AccountPage.qml:154
+msgid "Password"
+msgstr "Wachtwoord"
+
+#: ../qml/AccountPage.qml:166
+msgid "Save"
+msgstr "Opslaan"
+
+#. TRANSLATORS: "Account registered:" in this case meaning: "the account that is registered"
+#: ../qml/AccountPage.qml:187
+msgid "Account registered:"
+msgstr "Geregistreerd account:"
+
+#: ../qml/Main.qml:386
+msgid "StUd List"
+msgstr "StUd List"
+
+#: ../qml/Main.qml:396
+msgid "Delete"
+msgstr "Verwijderen"
+
+#: ../qml/Main.qml:408
+msgid "Reload"
+msgstr "Herladen"
+
+#: ../qml/Main.qml:426
+msgid "Online account"
+msgstr "Online account"
+
+#: ../qml/Main.qml:459
+msgid "add to stUdlist"
+msgstr "toevoegen aan stUdlist"
+
+#: stud.desktop.in.h:1
+msgid "stUd"
+msgstr "stUd"

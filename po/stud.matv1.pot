@@ -1,0 +1,73 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the stud.matv1 package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: stud.matv1\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2018-12-01 18:08+0000\n"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
+"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <LL@li.org>\n"
+"Language: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=CHARSET\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: ../qml/AccountPage.qml:10
+msgid "StUd Account"
+msgstr ""
+
+#: ../qml/AccountPage.qml:131
+msgid "Log on with the stUd account you created at "
+msgstr ""
+
+#: ../qml/AccountPage.qml:133
+msgid ""
+"Or enter some credentials of your choice to create and use a locally stored "
+"account only (password may be blank for local accounts):"
+msgstr ""
+
+#: ../qml/AccountPage.qml:144
+msgid "Username"
+msgstr ""
+
+#: ../qml/AccountPage.qml:154
+msgid "Password"
+msgstr ""
+
+#: ../qml/AccountPage.qml:166
+msgid "Save"
+msgstr ""
+
+#. TRANSLATORS: "Account registered:" in this case meaning: "the account that is registered"
+#: ../qml/AccountPage.qml:187
+msgid "Account registered:"
+msgstr ""
+
+#: ../qml/Main.qml:386
+msgid "StUd List"
+msgstr ""
+
+#: ../qml/Main.qml:396
+msgid "Delete"
+msgstr ""
+
+#: ../qml/Main.qml:408
+msgid "Reload"
+msgstr ""
+
+#: ../qml/Main.qml:426
+msgid "Online account"
+msgstr ""
+
+#: ../qml/Main.qml:459
+msgid "add to stUdlist"
+msgstr ""
+
+#: stud.desktop.in.h:1
+msgid "stUd"
+msgstr ""
