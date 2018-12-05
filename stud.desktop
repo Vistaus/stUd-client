@@ -1,5 +1,6 @@
 [Desktop Entry]
 Name=stUd
+Name[nl]=stUd
 Exec=qmlscene qml/Main.qml
 Icon=assets/stUd.png
 Terminal=false
