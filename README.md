@@ -1,5 +1,5 @@
 # stUd-client
-StUd - shop till U drop! A qml client that manages and syncs your lists across multiple devices and to your stUd cloud account.
+StUd - Shop till U drop! A qml client that manages and syncs your lists across multiple devices and to your stUd cloud account.
 
 Since development of Ubuntu Touch has moved to UbPorts, StUd client code will now be hosted here on GitHub.
 Launchpad.net of the StUd repository is now deprecated.
